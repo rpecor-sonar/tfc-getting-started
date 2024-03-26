@@ -39,3 +39,8 @@ resource "fakewebservices_database" "prod_db" {
   name = "Production DB"
   size = 256
 }
+
+resource "fakewebservices_database" "dev_db" {
+  name = "Production DB"
+  size = 256
+}
